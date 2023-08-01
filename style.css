@@ -1,0 +1,110 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Encabezado */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 28px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    font-size: 16px;
+    transition: border-bottom 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    border-bottom: 2px solid #fff;
+  }
+  
+  /* Contenido principal */
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  h2 {
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+    font-size: 24px;
+  }
+  
+  .project {
+    margin-bottom: 20px;
+  }
+  
+  .project img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Pie de página */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Estilos específicos de la sección Acerca de mí */
+  #about {
+    text-align: center;
+  }
+  
+  /* Estilos específicos de la sección Contacto */
+  #contact {
+    text-align: center;
+  }
+  
+  #contact p {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
+  /* Estilos de enlaces dentro del contenido */
+  main a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  main a:hover {
+    text-decoration: underline;
+  }
+  
